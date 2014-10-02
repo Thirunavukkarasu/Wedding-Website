@@ -1,0 +1,232 @@
+/* Set Background Image */
+body{
+    background-image:url(../images/bg.jpg);
+	background-repeat: repeat;
+}
+/* Margin to content */
+.photos,.faqs,.song,.big-day,.registry,.games,#map-canvas{
+   margin-top:100px;
+   min-height:800px;
+}
+.our-story-header{
+  margin-top:100px;
+}
+.our-story{
+  min-height:800px;
+}
+h1{
+	font-family: 'Great Vibes';
+	font-size:40px;
+}
+.well{
+	font-size:18px;
+}
+.registry .comments{
+	 background-color:rgba(0,0,0,0.5);
+}
+/* Header Navigation section */
+#icon-bar{
+	margin: 0 0 0 10px;
+}
+.navbar{
+	padding-left:100px;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:50px;	
+	font-size:16px;
+	background-color:#E7E7E7;	
+}
+
+#brand{
+	background-color:black;
+	color:white;
+	 border-radius:10em;
+	-moz-border-radius:10em;
+	-webkit-border-radius:10em;
+}
+#brand:hover,
+#brand:focus {
+    background-color:white;
+	color:black;
+    border-radius:10em;
+	-moz-border-radius:10em;
+	-webkit-border-radius:10em
+}
+#brand-mobile{
+	display:none;
+}
+#bride{
+	font-size:25px;
+	color:#93DC69;
+}
+#groom{
+	font-size:25px;
+	color:#82CAFA;	
+}
+
+.navbar-default .navbar-nav > li > a {
+	background-color:#E7E7E7;
+	color: #555;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color:black;
+	border-radius:10em;
+	-moz-border-radius:10em;
+	-webkit-border-radius:10em
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background-color: #E7E7E7;
+    border-radius:10em;
+	-moz-border-radius:10em;
+	-webkit-border-radius:10em	
+}
+
+/* Home page content */
+.content { 
+	margin-top:30px;
+}
+.thumbnail{
+	height:360px;
+}
+.thumbnail img{
+	height:200px;
+	width:600px;
+}
+.caption,address{
+	text-align:center;
+	font-size:15px;
+}
+/* carousel */
+.carousel{
+	padding-top:100px;
+}
+.carousel-inner .item img{
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: 0.1s ease-in-out left;
+ -moz-transition: 0.1s ease-in-out left;
+ -o-transition: 0.1s ease-in-out left;
+ transition: 0.1s ease-in-out left;
+}
+/*Clock Counter*/
+.clock{	
+left: -110px;
+height: 50px;
+width: 500px ;
+font-size:30px ;
+transform: scale(0.4);
+-moz-transform: scale(0.5);
+-webkit-transform: scale(0.4);
+}
+
+/*Our Story section */
+#anju-story{
+	  background-color:rgba(255,255,255, 0.5);
+	  color:black;
+	 height:800px;
+}
+#srini-story{
+	 background-color:rgba(0,0,0, 0.5);
+	 height:800px;
+}
+.big-day-text{
+	text-align:center;
+}
+img.displayed{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width:100%;
+}
+
+.img-circle{
+	display: block;
+	max-width:25%;
+}
+
+/*Photos section */
+.photos{
+ height:auto;
+}
+/* FAQs section */
+.faqs{
+ color:#000;
+ padding:20px 20px;
+ min-height:500px;
+ background-color:rgba(255, 255, 255, 0.5);
+}
+#construction{
+  font-size:40px;	
+}
+.table{
+width: auto !important
+}
+
+/* Getting there section*/
+#map-canvas{
+	margin-top:120px;
+}
+
+/*Footer section */
+.footer {
+  text-align:center;
+  margin-top:20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  background-image:url(../images/bg-content.jpg);
+  background-repeat: repeat;
+  height: 30px;
+}
+
+/*Icons*/
+
+.fa-heart{
+	color:#980002;
+}
+.fa-map-marker{
+        color:#00FFFF;
+}
+.fa-music{
+       color:#FF0099;
+}
+.fa-book{
+       color:#A52A2A;
+}
+.fa-camera{
+        color:#808000;
+}
+.fa-question{
+	color:#d08215;
+}
+.fa-bell{
+	color:#FFD700;
+}
+.fa-gift{
+	color:#3579DC;
+}
+
+/* Small scale devices */
+
+@media (min-width: 100px) and (max-width: 800px) {
+  #brand{
+	display:none;
+	}
+  #brand-mobile{
+	display:block;
+        background-color:black;
+	color:white;
+	border-radius:20em;
+	-moz-border-radius:20em;
+	-webkit-border-radius:20em;
+	}
+	.navbar{
+		padding-left:20px;
+	}
+}

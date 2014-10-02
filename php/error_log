@@ -1,0 +1,5 @@
+[28-Aug-2014 04:32:23 UTC] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home/anjuweds/public_html/php/request-song.php on line 21
+[28-Aug-2014 04:33:04 UTC] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE) in /home/anjuweds/public_html/php/request-song.php on line 21
+[28-Aug-2014 14:51:58 UTC] PHP Warning:  log() expects parameter 1 to be double, array given in /home/anjuweds/public_html/php/select_table.php on line 19
+[28-Aug-2014 14:52:14 UTC] PHP Warning:  log() expects parameter 1 to be double, array given in /home/anjuweds/public_html/php/select_table.php on line 19
+[28-Aug-2014 15:26:07 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/anjuweds/public_html/php/select_table.php on line 15

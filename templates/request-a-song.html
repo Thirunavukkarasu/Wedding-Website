@@ -1,0 +1,45 @@
+<link href="css/song.css" rel="stylesheet">
+<link href="css/bootstrapValidator.min.css" rel="stylesheet">
+
+<div class="row clearfix song">
+   <div class="col-md-offset-1 col-md-5" id="song">
+      <h1 class="well" id="construction">Request a Song!</h1>
+      <!-- Form itself -->
+      <form id="registrationForm" class="form-horizontal well">
+         <div class="form-group">
+            <div class="input-group">
+               <div class="input-group-addon"><i class="fa fa-user"></i></div>
+               <input type="text" class="form-control" placeholder="Full Name" name="name" id="name"/>
+             </div>
+         </div>
+         <div class="form-group">
+           <div class="input-group">
+               <div class="input-group-addon"><i class="fa fa-google-plus"></i></div>
+               <input type="email" class="form-control" placeholder="Email" name="email" id="email"/>
+           </div>
+         </div>
+         <div class="form-group">
+            <div class="input-group">
+                <div class="input-group-addon"><i class="fa fa-book"></i></div>
+               <input type="text" class="form-control" placeholder="Album Name" name="album_name" id="album_name"/>
+            </div>
+         </div>
+         <div class="form-group">
+            <div class="input-group">
+               <div class="input-group-addon"><i class="fa fa-music"></i></div>
+               <input type="text" class="form-control" placeholder="Song Name" name="song_name" id="song_name"/>
+            </div>
+         </div>         
+         <div id="success"> </div>
+         <!-- For success/fail messages -->
+         <button type="submit" class="btn btn-primary pull-right" id="submit">Submit</button><br />
+      </form>
+   </div>
+   <div class="col-md-offset-1 col-md-5" id="requested_song">
+      <h1 class="well" id="construction">List of songs that already requested!</h1>
+      <div id="request_song_table">Loading ...</div>
+   </div>
+</div>
+<script src="js/bootstrapValidator.min.js"></script>
+<script src="js/request-song.js"></script>
+
