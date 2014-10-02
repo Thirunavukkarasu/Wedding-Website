@@ -1,0 +1,83 @@
+                                                                                                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>We're getting married!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flipclock.css" rel="stylesheet">
+	<link href="css/plusgallery.css" rel="stylesheet">
+	<link href="css/great-vibes.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png">  
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<div class="container navigation">
+	<div id="header"></div>
+	<div id="body"></div>
+	<div id="footer"></div>
+</div>
+<script src="js/jquery-1.9.0.min.js"></script>
+<script src="js/underscore-min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/flipclock.min.js"></script>
+<script src="js/plusgallery.js"></script>
+<script src="js/utils.js"></script>
+<script>
+	$(document).ready(function() {
+		//Header
+		getTemplate('templates/header.html', function(template) {
+		$('#header').html(template);
+		//Tne Big Day page
+		$("#our-story").on("click",function(){
+			getTemplate('templates/our-story.html', function(template) {$('#body').html(template);});
+		});		
+		//Tne Big Day page
+		$("#the-big-day").on("click",function(){
+			getTemplate('templates/the-big-day.html', function(template) {$('#body').html(template);});
+		});
+		//Photos
+		$("#photos").on("click",function(){
+			getTemplate('templates/photos.html', function(template) {$('#body').html(template);});
+		});
+		//Registry page
+		$("#registry").on("click",function(){
+			getTemplate('templates/registry.html', function(template) {$('#body').html(template);});
+		});
+		//Getting There page
+		$("#getting-there").on("click",function(){
+			getTemplate('templates/getting-there.html', function(template) {$('#body').html(template);});
+		});		
+		//Request a song page
+		$("#request-a-song").on("click",function(){
+			getTemplate('templates/request-a-song.html', function(template) {$('#body').html(template);});
+		});	
+		//Games page
+		$("#games").on("click",function(){
+			getTemplate('templates/games.html', function(template) {$('#body').html(template);});
+		});	
+		//FAQs page
+		$("#FAQs").on("click",function(){
+			getTemplate('templates/FAQs.html', function(template) {$('#body').html(template);});
+		});			
+		});
+		getTemplate('templates/home.html', function(template) {$('#body').html(template);});
+		getTemplate('templates/footer.html', function(template) {$('#footer').html(template);});		
+});
+</script>	
+</body>
+</html>
+
+                            
+                            
+                            
